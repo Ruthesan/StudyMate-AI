@@ -2,7 +2,7 @@ import streamlit as st
 from supabase import create_client 
 from dotenv import load_dotenv
 import os
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from openai import OpenAI
