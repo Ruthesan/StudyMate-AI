@@ -64,7 +64,7 @@ def signup(email, password):
             "password": password
         })
         st.success("Account created. Please login.")
-        st.write(res)  # 👈 this shows what Supabase returns
+        # st.write(res)  # 👈 this shows what Supabase returns
     except Exception as e:
         st.error(f"Signup failed: {e}")  # 👈 THIS is the key fix
 # def signup(email, password):
