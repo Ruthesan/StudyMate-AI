@@ -23,7 +23,7 @@ OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # ---------------- SESSION STATE ----------------
 if "user" not in st.session_state:
